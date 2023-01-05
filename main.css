@@ -1,22 +1,72 @@
 body{
+    
     margin: 0;
+    text-align: center;
+    background: linear-gradient(to right, white, gray);
+    
 }
 
-h1 {
-    margin-top: 0;
+p {
+    color: black;
 }
+h1 {
+    margin: 0 auto;
+    font-family: Qualy, sans-serif;
+    color: black;
+
+}
+
+h2 {
+    font-family: Qualy, sans-serif;
+    color: black;
+}
+h3 {
+    
+    font-family: Qualy, sans-serif;
+    font-weight: lighter;
+    color: black;
+
+}
+
+h4 {
+    font-family: Qualy, sans-serif;
+    font-weight: 100;
+    color: black;
+}
+
 
 .top-container {
-    background-color: burlywood;
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
 }
- .middle-container{
-    background-color: red;
-    width: 200px;
-    height: 200px;
- }
 
- .bottom-container{
-    background-color: blue;
+.middle-conatainer {
+
+}
+
+.bottom-container {
+
+}
+
+.profile-pic {
     width: 200px;
     height: 200px;
- }
+    border-radius: 50%;
+}
+
+.skyline-pic {
+    margin-top: 0;
+    width: 1300px;
+    height: 225px
+}
+
+.computer-pic {
+    width: 200px;
+    height: 200px;
+}
+
+.daveguitar-pic {
+    width: 200px;
+    height: 250px;
+}
